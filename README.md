@@ -8,7 +8,8 @@ The programm creates a takeaway app that allows a customer to select dishes from
 Code Example
 ------------
 
-'''2.2.3 :002 > restaurant = Restaurant.new
+'''
+2.2.3 :002 > restaurant = Restaurant.new
  => #<Restaurant:0x007ff36983e140 @menu_class=#<Menu:0x007ff36983e118>, @messager_class=#<Messager:0x007ff36983e050>>
 2.2.3 :003 > order = Order.new
  => #<Order:0x007ff3691fd8d0 @restaurant_class=#<Restaurant:0x007ff3691fd830 @menu_class=#<Menu:0x007ff3691fd808>, @messager_class=#<Messager:0x007ff3691fd7e0>>, @basket={}>
@@ -25,7 +26,8 @@ Code Example
 2.2.3 :009 > order.basket
  => {"Chicken Soup"=>2, "Black Bean Beef"=>1, "Crispy Duck"=>1}
 2.2.3 :010 > order.summary
- => {"Chicken Soup"=>"8.95", "Black Bean Beef"=>"7.45", "Crispy Duck"=>"8.50"} '''
+ => {"Chicken Soup"=>"8.95", "Black Bean Beef"=>"7.45", "Crispy Duck"=>"8.50"}
+ '''
 
 
 
